@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
+title: My Portfolio
+email: aranshinge@ucdavis.edu
+description: > My profile # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://ashishranshinge.github.io" # the base hostname & protocol for your site
 
 twitter_username:
-github_username:
+github_username: AshishRanshinge
 
 # Build settings
 markdown: kramdown
