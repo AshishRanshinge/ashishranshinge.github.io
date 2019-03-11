@@ -1,22 +1,8 @@
-{{ partial "head.html" . }}
-{{ partial "nav.html" . }}
-
-<main>
-	<header>
-		<h1>{{ .Title }}</h1>
-	</header>
-
-	<article>
-		{{ .Content }}
-	</article>
-</main>
-
-<div id="bottom-nav" class="text-center center-block">
-	<a href=" {{ .Site.BaseURL }}" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
-</div>
-
-{{ if .Site.DisqusShortname }}
-  {{ template "_internal/disqus.html" . }}
+{{ define "main" }}
+<section class="resume-section p-3 p-lg-5 d-flex d-column" id="{{ replace .Title " " "-" }}">
+  <div class="my-auto">
+    <h1 class="mb-0"><span class="text-primary">{{ .Title }}</span></h1>
+    {{ .Content }}
+  </div>
+</section>
 {{ end }}
-
-{{ partial "footer.html" . }}

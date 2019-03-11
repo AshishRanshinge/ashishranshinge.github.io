@@ -1,53 +1,50 @@
-baseurl = "http://example.com/"
-theme = "hugo-geo"
-themesdir = "../.."
-relativeURLs = false
+baseURL = "https://example.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-disqusShortname = "shortcode-here"
-paginate = 5
-
-[taxonomies]
-	tag = "tags"
-	tutorial = "tutorials"
+title = "Eddie Webb"
+theme = "hugo-resume"
 
 [params]
-	showglobe = true
+    firstName = "Eddie"
+    lastName = "Webb"
+    address = "Rollinsford, NH"
+    phone = "1-555-555-1234"
+    contactNote = "Dev Tools Engineer"
+    profileImage = "img/TechChat.png"
+    email = "email@domain.com"
+    description = "Software Platform Engineer with experience leveraging agile, DevOps, and CI/CD to manage large scale distributed platforms both on prem and in public cloud."
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = true
+    showProjects = true
+    showOpenSource = true
+    showPublications = true
+    showExperience = true
+    showEducation = true
 
-	favicon = "favicon.ico"
-	
-	analytics = "code-here"
+    showQr = true
 
-	email = "alexurquhart@gmail.com"
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/edwardwebb/"
 
-	profilepic = "img/profile.png"
-	
-	title = "MY NAME"
-	subtitle = "MY HUGO BLOG"
 
-	# Social buttons for sidebar
-	# Each of these are optional
-	[[params.socialbuttons]]
-	faicon = "github"
-	url = "https://github.com/alexurquhart"
-	[[params.socialbuttons]]
-	faicon = "twitter"
-	url = "https://twitter.com/alexanderurq"
-	[[params.socialbuttons]]
-	faicon = "linkedin"
-	url = "https://linkedin.com"
-	[[params.socialbuttons]]
-	faicon = "google-plus"
-	url = "https://plus.google.com/+YourID"
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/eddiewebb/"
 
-	[[params.navlinks]]
-	name = "About"
-	url = "about"
-	
-	[[params.navlinks]]
-	name = "Blog"
-	url = ""
-	
-	[[params.navlinks]]
-	name = "Tutorials"
-	url = "tutorial/"
+[[params.handles]]
+    name = "Bitbucket"
+    link = "https://bitbucket.org/eddiewebb/"
+
+[[params.handles]]
+    name = "Stack Overflow"
+    link = "https://stackoverflow.com/users/story/82880"
+    icon = "stack-overflow"
+
+[[params.handles]]
+    name = "Keybase"
+    link = "https://keybase.io/edwardawebb"
+    icon = "keybase"
+
+[params.google.analytics]
+    trackerID = "XX-123446-01"

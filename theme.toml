@@ -1,13 +1,22 @@
-name = "hugo-geo"
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Resume"
 license = "MIT"
-licenselink = "https://raw.githubusercontent.com/alexurquhart/hugo-geo/master/LICENSE"
-description = "A responsive blog theme made using Bootstrap 3, jQuery, and D3.js"
-homepage = "https://alexurquhart.com"
-tags = ["blog"]
-features = ["blog", "responsive", "bootstrap"]
-min_version= 0.14
+licenselink = "https://github.com/eddiewebb/hugo-resume/blob/master/LICENSE.md"
+description = "Personal resume with social handles, skills inventory, work history and portfolio. Ported from StartBootstrap 'Resume' theme"
+homepage = "https://edwardwebb.com/"
+tags = ["portfolio","resume","responsive"]
+features = ["social","mobile","projects","responsive","qr-code"]
+min_version = "0.1"
 
 [author]
-    name = "Alex Urquhart"
-    email = "alexurquhart@gmail.com"
-    url = "https://alexurquhart.com"
+  name = "Eddie Webb"
+  homepage = "https://edwardawebb.com"
+
+
+# If porting an existing theme
+[original]
+  name = "Start Bootstrap Resume"
+  homepage = "https://startbootstrap.com/template-overviews/resume/"
+  repo = "https://github.com/BlackrockDigital/startbootstrap-resume"
