@@ -1,15 +1,16 @@
 [
     {
-        "school":"Rochester Institute of Technology",
-        "degree":"Bachelor of Science",
-        "major":"Management Information Systems",
-        "notes":"Beta Gamma Signma, High Honors",
-        "range":"2006 - 2008"
+        "school":"University of California, Davis",
+        "degree":"Master of Science",
+        "major":"Business Analytics",
+        "notes":"San Francisco, CA",
+        "range":"2018 - 2019"
     },
     {
-        "school":"Clinton Community College",
-        "degree":"Associate of Applied Science",
-        "major":"Computer Information Systems",
+        "school":"University of Mumbai",
+        "degree":"Bachelor of Engineering",
+        "major":"Electronics Engineering",
+        "notes":"Mumbai, India",
         "range":"2004 - 2006"
     }
 ]
