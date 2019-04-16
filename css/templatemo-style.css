@@ -21,7 +21,7 @@ html,body {
 
 
 /*---------------------------------------
-    Typorgraphy              
+    Typorgraphy
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
@@ -92,7 +92,7 @@ p {
 }
 
 .section-btn:hover {
-  background: #E3AE57;
+  background: #7FC1DC;
   border-color: transparent;
   color: #ffffff;
 }
@@ -114,6 +114,7 @@ p {
 
 #about,
 #service,
+#service1,
 #experience,
 #education,
 #contact {
@@ -121,9 +122,10 @@ p {
 }
 
 #home .container,
-#about .container, 
+#about .container,
 #experience .container,
 #service .container,
+#service1 .container,
 #education .container,
 #contact .container {
   width: 100%;
@@ -137,6 +139,7 @@ p {
 }
 
 #service,
+#service1,
 #quotes,
 footer {
   text-align: center;
@@ -144,7 +147,7 @@ footer {
 
 #experience,
 #education {
-  background: #E9724C;
+  background:#E3E9F2;
 }
 
 .background-image {
@@ -165,25 +168,39 @@ footer {
 }
 
 .color-yellow {
-  color: #E3AE57;
+  color: #2E4976;
+}
+
+.color-black{
+  color: #000;
 }
 
 .bg-yellow {
-  background: #E3AE57;
+  background: #E3E9F2;
+}
+
+.bg-light {
+  background: #7FC1DC;
 }
 
 .bg-white {
-  background: #ffffff;
+  background: #BCC8E0;
 }
 
 .bg-dark {
-  background: #161616;
+  background: #ffffff;
 }
 
+.bg-black1{
+  background: #000;
+}
 
+.email{
+  color: #fff;
+}
 
 /*---------------------------------------
-    General               
+    General
 -----------------------------------------*/
 
 html{
@@ -191,14 +208,14 @@ html{
 }
 
 a {
-  color: #E3AE57;
+  color: #000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #E3AE57;
+  color: #000;
   outline: none;
 }
 
@@ -218,7 +235,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Preloader section              
+    Preloader section
 -----------------------------------------*/
 
 .preloader {
@@ -252,7 +269,7 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #E3AE57;
+  border: 2px solid #2E4976;
   border-top-color: #f9f9f9;
   animation: spinner .6s linear infinite;
 }
@@ -268,7 +285,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Navigation section              
+    Navigation section
 -----------------------------------------*/
 
 .custom-navbar {
@@ -297,7 +314,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #E3AE57;
+    color: #2E4976;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -307,7 +324,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #E3AE57;
+    color: #2E4976;
 }
 
 .custom-navbar .navbar-toggle {
@@ -320,7 +337,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #E3AE57;
+    background: #EEEFF4;
     border-color: transparent;
 }
 
@@ -328,7 +345,7 @@ a:hover, a:active, a:focus {
     .custom-navbar {
         padding: 12px 0;
         border-bottom: 0;
-        background: 0 0; 
+        background: 0 0;
     }
     .custom-navbar.top-nav-collapse {
         background: #ffffff;
@@ -341,7 +358,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Home section              
+    Home section
 -----------------------------------------*/
 
 #home h1 {
@@ -349,7 +366,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .col-md-6 {
-  background: #f1e2d7;
+  background: #F0F8FD  ;
 /* light blue color: #c3eafd; */
   padding-right: 0;
   padding-left: 0;
@@ -379,7 +396,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-   About section              
+   About section
 -----------------------------------------*/
 
 #about .about-img {
@@ -412,11 +429,11 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Service section              
+    Service section
 -----------------------------------------*/
 
 #service {
-  background: #E9724C;
+  background:  rgb(111, 173, 245);
 }
 
 #service p {
@@ -433,10 +450,31 @@ a:hover, a:active, a:focus {
   padding-bottom: 22px;
 }
 
+/*---------------------------------------
+    Service section
+-----------------------------------------*/
+
+#service1 {
+  background:  rgb(111, 173, 245);
+}
+
+#service1 p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#service1 .service-thumb {
+  padding: 52px 22px 52px 22px;
+}
+
+#service1 .service-thumb .fa {
+  font-size: 42px;
+  padding-bottom: 22px;
+}
 
 
 /*---------------------------------------
-    Experience section              
+    Experience section
 -----------------------------------------*/
 
 #experience .experience-img {
@@ -453,16 +491,31 @@ a:hover, a:active, a:focus {
 }
 
 #experience small {
-  color: #633;
+  color: #2E4976;
   font-weight: bold;
 }
 
+
+.skillsul{
+  overflow: auto;
+  list-style-type: none;
+}
+
+.skills{
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+
+
 /*---------------------------------------
-    Education section              
+    Education section
 -----------------------------------------*/
 
 #education {
-  background: #E3AE57;
+  background: #E3E9F2;
 }
 
 #education .education-img {
@@ -471,6 +524,7 @@ a:hover, a:active, a:focus {
 
 #education .media-heading {
   margin-bottom: 0px;
+  color: black;
 }
 
 #education .media .fa {
@@ -479,14 +533,17 @@ a:hover, a:active, a:focus {
 }
 
 #education small {
-  color: #886D1E;
+  color: #2E4976;
   font-weight: bold;
 }
 
+#education p{
+  color: black;
+}
 
 
 /*---------------------------------------
-   Quotes section              
+   Quotes section
 -----------------------------------------*/
 
 #quotes {
@@ -519,11 +576,11 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Contact section              
+    Contact section
 -----------------------------------------*/
 
 #contact {
-  background: #E9724C;
+  background: #2E4976;
 }
 
 #contact .contact-form,
@@ -549,7 +606,7 @@ a:hover, a:active, a:focus {
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #E3AE57;
+  border-bottom: 1px solid  #ffffff;
   border-radius: 0px;
   box-shadow: none;
   color: #ffffff;
@@ -587,18 +644,9 @@ a:hover, a:active, a:focus {
 
 
 
-/*---------------------------------------
-   Footer section              
------------------------------------------*/
-
-footer {
-    padding: 140px 0px;
-}
-
-
 
 /*---------------------------------------
-   Social icon             
+   Social icon
 -----------------------------------------*/
 
 .social-icon {
@@ -631,7 +679,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #E3AE57;
+    background: #2E4976;
     border-color: #ffffff;
     color: #ffffff;
     transform: scale(1.1);
@@ -640,7 +688,7 @@ footer {
 
 
 /*---------------------------------------
-   Mobile Responsive         
+   Mobile Responsive
 -----------------------------------------*/
 
 @media only screen and (max-width: 580px) {
@@ -671,7 +719,7 @@ footer {
   }
 
   #home .container,
-  #about .container, 
+  #about .container,
   #experience .container,
   #service .container,
   #education .container,
